@@ -1,6 +1,7 @@
 ---
 permalink: /sex_chromosome_evolution/
-title: "Sex chromosome evolution"
+layout: archive
+author_profile: true
 ---
 # _Ongoing work_
 
