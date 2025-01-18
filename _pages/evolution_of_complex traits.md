@@ -4,7 +4,7 @@ permalink: /evolution_of_complextraits/
 author_profile: true
 title: ""
 ---
-# _Colony sex ratio is controlled by a supergene in_ Formica _ants_
+# _Colony sex ratio is controlled by a supergene in some_ Formica _ants_
 Complex traits that are inherited as simple Mendelian units are fascinating. During my Ph.D. dissertation, I worked in the _Formica_ ant system. _Formica_ ants have a supergene that determines colony queen number that is ~30 million years old <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.16196" target="_blank" rel="noopener noreferrer">(Purcell, Lagunas-Robles, Rabeling, Borowiec, & Brelsford 2021)</a>! I was interested in understanding whether colony sex ratio could be associated with this "social" supergene as colonies specializing in exclusively producing males are expected to have many queens (=polygyne) and colonies specializing in producing exclusively future queens (or gynes) are expected to have a single queen (=monogyne). There is an elegant body of literature on sex ratios in ants and I cannot do it justice here but see <a href="https://academic.oup.com/beheco/article-abstract/19/2/382/213557" target="_blank" rel="noopener noreferrer">Meunier et. al. 2008</a> for a review. I hypothesized that colonies with the _M_ haplotype (monogyne-associated in other _Formica_ species) would exclusively produce gynes and colonies with _P_ haplotype (polygyne-associated in other _Formica_ species) would exclusively produce males. 
 
 <img src="../images/Fig4_PNAS_GLR2021.jpg" alt="drawing" width="750"/>
