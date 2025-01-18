@@ -2,6 +2,7 @@
 permalink: /sex_chromosome_evolution/
 layout: archive
 author_profile: true
+title: ""
 ---
 
 # _Ongoing work_
