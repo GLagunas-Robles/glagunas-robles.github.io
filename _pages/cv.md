@@ -17,17 +17,15 @@ Education
   
 * B.Sc. in Biotechnology, Cal Poly Pomona, 2018
 
-Select Fellowships and Awards
+Selected Fellowships and Awards
 ======
 * Dissertation Year Fellowship (3-month support), 2024
 * Alberta Conservation Association Grants in Biodiversity, 2020
 * National Science Foundation Graduate Research Fellowship, 2018
 * Dean's Distinguished Fellowship, 2018
 * National Science Foundation Scholarship in STEM, 2016 and 2017
-* LSAMP scholar, 2016
-* McNair scholar, 2015
   
-Teaching
+Teaching Experience
 ======
 UC Riverside Graduate Teaching Appointments (2019-2024)
 
