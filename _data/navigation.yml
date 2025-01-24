@@ -5,11 +5,14 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "Evolution of complex traits"
+    url: /evolution_of_complextraits/
+    
+    
   - title: "Sex chromosome evolution"
     url: /sex_chromosome_evolution/
     
-  - title: "Evolution of complex traits"
-    url: /evolution_of_complextraits/
+
 
   - title: "Publications"
     url: /publications/   
