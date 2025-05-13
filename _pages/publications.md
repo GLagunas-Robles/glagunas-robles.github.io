@@ -20,3 +20,4 @@ Hughes JJ, <span style="text-decoration:underline">Lagunas-Robles G</span>, & Ca
 Purcell J, <span style="text-decoration:underline">Lagunas-Robles G</span>, Rabeling C, Borowiec ML, & Brelsford A, 2021. The maintenance of polymorphism in an ancient social supergene. _**Molecular ecology**_, 30(23), pp.6246-6258. <a href="https://doi.org/10.1111/mec.16196" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/mec.16196</a> 
 
 # _Preprints & In review_
+Behrens C, Maciejewski MF, Sumarli A, Lucas G, Lagunas-Robles G, Samuk K, & Bell AM, 2025. Evidence of parental care as a novel reproductive isolating mechanism. <a href="https://doi.org/10.1101/2025.04.18.649590" target="_blank" rel="noopener noreferrer">[https://doi.org/10.1111/mec.16196](https://doi.org/10.1101/2025.04.18.649590 )</a>  
