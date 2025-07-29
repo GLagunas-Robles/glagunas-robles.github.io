@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - German Lagunas-Robles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .nav-links a.active {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .species {
+            text-align: center;
+            padding: 2rem 0;
+            color: white;
+        }
+        
+        .species-images {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .species-image {
+            width: 200px;
+            height: 150px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+            border: 2px dashed rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
+        }
+        
+        .content {
+            padding: 4rem 0;
+            background: white;
+            margin: 2rem auto;
+            border-radius: 20px;
+            max-width: 1500px;
+        }
+        
+        .content-inner {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #333;
+            text-align: center;
+        }
+        
+        .research-section {
+            margin-bottom: 4rem;
+        }
+        
+        .research-item {
+            display: flex;
+            gap: 3rem;
+            align-items: flex-start;
+        }
+        
+        .research-image {
+            flex-shrink: 0;
+            width: 300px;
+            height: 300px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 1rem;
+            text-align: center;
+        }
+        
+        .research-text {
+            flex: 1;
+        }
+        
+        .research-text h2 {
+            font-size: 1.8rem;
+            color: #20b2aa;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #20b2aa;
+            padding-bottom: 0.5rem;
+        }
+        
+        .research-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+ 
+        .content a {
+            color: #20b2aa;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .content a:hover {
+            color: #008b8b;
+            border-bottom: 2px solid #008b8b;
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .species-images {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            
+            .species-image {
+                width: 180px;
+                height: 135px;
+            }
+            
+            .research-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .research-image {
+                width: 250px;
+                height: 250px;
+                margin: 0 auto 2rem auto;
+            }
+            
+            .content h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="https://glagunas-robles.github.io/" class="logo">German Lagunas-Robles, PhD</a>
+            <ul class="nav-links">
+                <li><a href="https://glagunas-robles.github.io/">Home</a></li>
+                <li><a href="https://glagunas-robles.github.io/research.html">Research</a></li>
+                <li><a href="https://glagunas-robles.github.io/publications.html">Publications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="content-inner">
+                <h1>Research</h1>
+                
+                <div class="research-section">
+                    <div class="research-item">
+                        <div class="research-image">
+                        <img src="supergene.png" alt="speciation" class="research-image">
+                        </div>
+                        <div class="research-text">
+                            <h2>Evolution of Complex Traits</h2>
+                            <p>Complex traits are often controlled by supergenes. Supergenes are genomic regions containing two or more linked alleles that determine discrete traits and are under linkage such that they are inherited as single Mendelian units. Oftentimes, supergenes are inversions, but other structural variants and hemizygosity, fall under the supergene umbrella. Sex chromosomes are considered a special case of a supergene and much of the theoretical literature for supergene evolution builds on what we know about sex chromosome evolution.</p>
+                            
+                            <p>Using population genomic approaches, I have studied supergenes within the ant genus <i>Formica</i>. There are multiple supergene haplotypes controlling different phenotypes, including colony queen number (social supergene) and the offspring sex ratio in a colony (sex ratio supergene). Representative publications include discovering <a href="https://doi.org/10.1073/pnas.2101427118" target="_blank"> a sex ratio supergene linked to the social supergene in two <i>Formica</i> species </a> and the <a href="https://doi.org/10.1093/jeb/voaf023" target="_blank"> unexpected absence of one of the supergene haplotypes in a supercolonial population</a>. Some of my ongoing work includes understanding how these supergenes are maintained in different populations and how they interact when they are present in the same population.</p> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-section">
+                    <div class="research-item">
+                        <div class="research-image">
+                        <img src="chromosomes.png" alt="speciation" class="research-image">
+                        </div>
+                        <div class="research-text">
+                            <h2>Sex Chromosome Evolution</h2>
+                            <p>Most of our understanding of sex chromosomes come from static and stable systems, where there isn’t much change occurring. New, or “neo,” sex chromosomes allow us to understand the early stages of genomic evolution since old sex chromosomes can fuse to autosomes allowing us to study early stages of sex chromosome evolution. My colleagues and I <a href="https://doi.org/10.1093/jhered/esae031" target="_blank"> reviewed the mammal karyotype literature</a> and documented over 150 variant sex chromosome systems in mammals and wrote about the role of conflict in the evolution and maintenance of neo-sex chromosomes. </p>
+                            
+                            <p>Currently, I am using pangenomics, transcriptomics, and population genomics to understand how multiple neo-sex chromosomes are maintained in a beetle.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-section">
+                    <div class="research-item">
+                        <div class="research-image">
+                        <img src="speciation.png" alt="speciation" class="research-image">
+                        </div>
+                        <div class="research-text">
+                            <h2>Speciation</h2>
+                            <p>Understanding the genetic basis of speciation is central to evolutionary biology. Neo-sex chromosomes can play a disproportionate role in speciation as reproductive incompatibilites can accumulate quickly in different populations. Rapidly diverging neo-sex chromosomes allow for populations to become isolated from one another due to beneficial, mildly deleterious, or even drifting mutations. These effects are especially apparent in young  species where the genetic signatures of these mutations have not been lost to deep evolutionary time. </p>
+                            
+                            <p>Using population genetics and transcriptomics, I am aimining to understand the role of neo-sex chromosomes in a beetle in the early stages of the speciation process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Site maintained by German Lagunas-Robles. Last updated July 28, 2025</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Lagunas-Robles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .species {
+            text-align: center;
+            padding: 2rem 0;
+            color: white;
+        }
+        
+        .species-images {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .species-image {
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+        }
+        
+        .species h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .species p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .features {
+            padding: 4rem 0;
+            background: white;
+            margin: 2rem auto;
+            border-radius: 20px;
+            max-width: 1200px;
+        }
+        
+        .features h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+            color: #333;
+        }
+        
+        .about-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            gap: 3rem;
+            align-items: flex-start;
+        }
+        
+        .profile-image {
+            flex-shrink: 0;
+            width: 350px;
+            height: 350px;
+            border-radius: 15px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .text-content {
+            flex: 1;
+        }
+        
+        .text-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .text-content a {
+            color: #20b2aa;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .text-content a:hover {
+            color: #008b8b;
+            border-bottom: 2px solid #008b8b;
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .species h1 {
+                font-size: 2.5rem;
+            }
+            
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .species-images {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            
+            .species-image {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="https://glagunas-robles.github.io/" class="logo">German Lagunas-Robles, PhD</a>
+            <ul class="nav-links">
+                <li><a href="https://glagunas-robles.github.io/">Home</a></li>
+                <li><a href="https://glagunas-robles.github.io/research.html">Research</a></li>
+                <li><a href="https://glagunas-robles.github.io/publications.html">Publications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="species container">
+            <div class="species-images">
+                <img src="ants.jpg" alt="ant" class="species-image">
+                <img src="beetle.jpeg" alt="beetles" class="species-image">
+ 
+                </div>
+            </div>
+        </section>
+
+        <section class="features container">
+            <div class="about-content">
+                <img src="profile.jpeg" alt="GLR" class="profile-image">
+                <div class="text-content">
+                    <p>As an evolutionary biologist, I am fundamentally interested in how the genome evolves to maintain differentiated traits and populations. I have primarily addressed this question from two perspectives; (1) the evolution of complex traits and (2) sex chromosome evolution. My work intergrates population genomics, comparative genomics, and transcriptomics to understand the evolution of genetic architecture holistically. You can read more about my interests in my <a href="Research.html"> Research tab</a>!</p>
+                    
+                    <p>I currently am a postdoctoral researcher working with <a href="https://www.ryanbracewell.com/people.html" target="_blank" rel="noopener noreferrer">Ryan Bracewell</a> at Indiana University. I earned my PhD in the department of Evolution, Ecology, and Organismal Biology at the University of California, Riverside with my dissertation advisor, <a href="https://profiles.ucr.edu/app/home/profile/alanbe" target="_blank" rel="noopener noreferrer">Alan Brelsford</a>, and my Bachelor of Science in Biotechnology from Cal Poly Pomona.</p>                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Site maintained by German Lagunas-Robles. Last updated July 28, 2025</p>
+        </div>
+    </footer>
+</body>
+</html>

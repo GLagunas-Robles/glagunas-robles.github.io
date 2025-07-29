@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - German Lagunas-Robles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .nav-links a.active {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .content {
+            padding: 4rem 0;
+            background: white;
+            margin: 2rem auto;
+            border-radius: 20px;
+            max-width: 1200px;
+        }
+        
+        .content-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #333;
+            text-align: center;
+        }
+        
+        .profile-links {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+        
+        .profile-links h2 {
+            color: #20b2aa;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .profile-links p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .profile-links a {
+            color: #20b2aa;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+            margin: 0 1rem;
+        }
+        
+        .profile-links a:hover {
+            color: #008b8b;
+            border-bottom: 2px solid #008b8b;
+        }
+        
+        .publications-section {
+            margin-bottom: 3rem;
+        }
+        
+        .publications-section h2 {
+            font-size: 1.8rem;
+            color: #20b2aa;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #20b2aa;
+            padding-bottom: 0.5rem;
+        }
+        
+        .publication-list {
+            list-style: none;
+        }
+        
+        .publication-list li {
+            margin-bottom: 1.5rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        
+        .publication-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .publication-title_awarded {
+            font-weight: bold;
+            color: black;
+        }
+        
+        .publication-authors {
+            font-weight: normal;
+        }
+        
+        .publication-title {
+            font-style: italic;
+            margin: 0.3rem 0;
+        }
+        
+        .publication-journal {
+            color: #666;
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .content h1 {
+                font-size: 2rem;
+            }
+            
+            .profile-links a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="https://glagunas-robles.github.io/" class="logo">German Lagunas-Robles, PhD</a>
+            <ul class="nav-links">
+                <li><a href="https://glagunas-robles.github.io/">Home</a></li>
+                <li><a href="https://glagunas-robles.github.io/research.html">Research</a></li>
+                <li><a href="https://glagunas-robles.github.io/publications.html">Publications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="content-inner">
+                <h1>Publications</h1>
+                
+                <div class="profile-links">
+                    <p>For a complete list of publications and citations, please visit:</p>
+                    <a href="https://orcid.org/0000-0002-9209-5961" target="_blank">ORCID</a>
+                    <a href="https://www.researchgate.net/profile/German-Lagunas-Robles" target="_blank">ResearchGate</a>
+                    <a href="https://scholar.google.com/citations?user=fPlSsrAAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                </div>
+                
+                <div class="publications-section">
+                    <h2>Peer-Reviewed Articles</h2>
+                    <ul class="publication-list">
+                        <li>
+                            <div class="notes">^denotes mentee, <span style="font-weight:bold">bold</span> denotes "Editor's Choice"</div>
+                        </li>
+
+                        <li>
+                            <div class="publication-authors"><u>Lagunas-Robles G</u>, Alam Z^, and Brelsford A, 2025.</div>
+                            <div class="publication-title_awarded"><i>Unexpected absence of a multiple-queen supergene haplotype from supercolonial populations of Formica ants.</i></div>
+                            <div class="publication-journal"> Journal of Evolutionary Biology, 38(4), pp.543–553. <a href="https://doi.org/10.1093/jeb/voaf023" target="_blank">https://doi.org/10.1093/jeb/voaf0231</a></div>
+                        </li>
+                        
+                        <li>
+                            <div class="publication-authors">Hughes JJ, <u>Lagunas-Robles G</u>, & Campbell P, 2024.</div>
+                            <div class="publication-title">The role of conflict in the formation and maintenance of variant sex chromosome systems in mammals.</div>
+                            <div class="publication-journal">Journal of Heredity, 115(6), pp.601–624. <a href="https://doi.org/10.1093/jhered/esae031" target="_blank">https://doi.org/10.1093/jhered/esae031</a></div>
+                        </li>
+                        
+                        <li>
+                            <div class="publication-authors"><u>Lagunas-Robles G</u>, Purcell J, & Brelsford A, 2021.</div>
+                            <div class="publication-title">Linked supergenes underlie split sex ratio and social organization in an ant.</div>
+                            <div class="publication-journal">Proceedings of the National Academy of Sciences, 118(46), p.e2101427118. <a href="https://doi.org/10.1073/pnas.2101427118" target="_blank">https://doi.org/10.1073/pnas.2101427118</a></div>
+                        </li>
+                        
+                        <li>
+                            <div class="publication-authors">Purcell J,<u>Lagunas-Robles G</u>, Rabeling C, Borowiec ML, & Brelsford A, 2021.</div>
+                            <div class="publication-title"> The maintenance of polymorphism in an ancient social supergene.</div>
+                            <div class="publication-journal">Molecular Ecology, 30(23), pp.6246-6258. <a href="https://doi.org/10.1111/mec.16196" target="_blank">https://doi.org/10.1111/mec.16196</a></div>
+                        </li>
+
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="publications-section">
+                    <h2>Preprints</h2>
+                    <ul class="publication-list">
+                        <li>
+                            <div class="publication-authors">Purcell J, Scarparo G, <u>Lagunas-Robles G</u>, Sankovitz M, West M, Alam Z, & Brelsford A, 2025.</div>
+                            <div class="publication-title">Variation in social organization and supergene control along a latitudinal gradient.</div>
+                            <div class="publication-journal"> <a href="https://doi.org/10.1101/2025.07.20.665811" target="_blank">https://doi.org/10.1101/2025.07.20.665811</a></div>
+                        </li>
+                        
+                        <li>
+                            <div class="publication-authors">Behrens C, Maciejewski MF, Sumarli A, Lucas G, <u>Lagunas-Robles G</u>, Samuk K, & Bell AM, 2025.</div>
+                            <div class="publication-title">Evidence of parental care as a novel reproductive isolating mechanism.</div>
+                            <div class="publication-journal"> <a href="https://doi.org/10.1111/mec.16196" target="_blank"> https://doi.org/10.1111/mec.16196</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Site maintained by German Lagunas-Robles. Last updated July 28, 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
